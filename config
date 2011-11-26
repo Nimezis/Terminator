@@ -1,0 +1,16 @@
+[global_config]
+[keybindings]
+  zoom_out = <Control>1
+[profiles]
+  [[default]]
+    background_color = "#ffffff"
+    foreground_color = "#000000"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
